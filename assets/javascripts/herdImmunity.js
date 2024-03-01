@@ -14,7 +14,7 @@ var timestep = 0;
 init_hiSpace();
 
 function init_hiSVG() {
-    var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+    var isFirefox = navigator.userAgent.toLowerCase().includes('firefox');   // Firefox 1.0+
     var isIE = /*@cc_on!@*/false || document.documentMode;   // At least IE6
 
 

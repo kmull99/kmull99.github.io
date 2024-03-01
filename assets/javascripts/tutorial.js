@@ -225,7 +225,7 @@ function homeToTutorial() {
 
     pop = document.getElementById('audio');
 
-    var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+    var isFirefox = navigator.userAgent.toLowerCase().includes('firefox');   // Firefox 1.0+
     var isIE = /*@cc_on!@*/false || document.documentMode;   // At least IE6
 
 
