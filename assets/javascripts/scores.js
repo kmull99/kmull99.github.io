@@ -573,7 +573,8 @@ function drawNavButtons() {
         .style("cursor", "pointer")
         .attr("opacity", 0)
         .on("click", function() {
-            window.location.href = facebookText;
+            alert( "This link is no longer functional" );
+            // window.location.href = facebookText;
         })
 
     d3.select(".scoreSVG").append("image")
@@ -589,7 +590,8 @@ function drawNavButtons() {
         .attr("opacity", 0)
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = twitterText;
+            alert( "This link is no longer functional" );
+            // window.location.href = twitterText;
         })
 
     d3.select(".scoreSVG").append("image")
@@ -605,7 +607,8 @@ function drawNavButtons() {
         .style("width", "25px")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
+            alert( "This link is no longer functional" );
+            // window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
         })
 
     d3.select(".scoreSVG").append("text")
