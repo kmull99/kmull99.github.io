@@ -236,6 +236,6 @@ d3.select(".homeSVG").append("text")
         d3.select(this).style("fill", "#707070")
     })
     .on("click", function() {
-        window.location.href = "";
+        window.location.href = "https://github.com/digitalepidemiologylab/VaxGame";
     })
     .text("Code developed by Marcel Salathé and collaborators")
