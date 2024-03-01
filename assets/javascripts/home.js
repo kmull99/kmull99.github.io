@@ -180,7 +180,7 @@ d3.select(".homeSVG").append("text")
     })
     .text("Tour >")
     .on("click", function() {
-        window.location.href = '/tour'
+        window.location.href = 'tour.html'
    })
 
 d3.select(".homeSVG").append("text")
@@ -198,7 +198,7 @@ d3.select(".homeSVG").append("text")
         d3.select(this).style("fill", "#707070")
     })
     .on("click", function() {
-        window.location.href = '/game'
+        window.location.href = 'game.html'
     })
 
 d3.select(".homeSVG").append("text")
@@ -219,7 +219,7 @@ d3.select(".homeSVG").append("text")
         d3.select(this).style("fill", "#707070")
     })
     .on("click", function() {
-        window.location.href = '/herdImmunity'
+        window.location.href = 'herdImmunity.html'
     })
 
 d3.select(".homeSVG").append("text")

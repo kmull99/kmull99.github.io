@@ -44,7 +44,7 @@ d3.select("body").append("div")
     .text("VAX!")
     .style("cursor", "pointer")
     .on("click", function() {
-        window.location.href = '/'
+        window.location.href = 'index.html'
     })
 
 // saves icon, below vax logo
@@ -115,10 +115,10 @@ function selectScenario(difficulty) {
     // reset onClick for development purposes
     d3.select(".gameMenuBox")
         .on("click", function() {
-            window.location.href = '/scenario'
+            window.location.href = 'scenario.html'
         })
 
-    window.setTimeout(function() {window.location.href = '/scenarioGame'}, 500)
+    window.setTimeout(function() {window.location.href = 'scenarioGame.html'}, 500)
 }
 
 function createUnlocksCookie() {

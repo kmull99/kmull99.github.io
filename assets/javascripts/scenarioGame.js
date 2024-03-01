@@ -83,7 +83,7 @@ function runScenario() {
 function setCurrentGameConditions() {
     // revert back to /scenario page if cookie is empty
     //$.cookie.json = true;
-    if (Cookies.get('vaxCurrentGame') == undefined) window.location.href = '/scenario'
+    if (Cookies.get('vaxCurrentGame') == undefined) window.location.href = 'scenario.html'
     else currentGameCookie = JSON.parse(Cookies.get('vaxCurrentGame'));
 
     scenarioTitle = currentGameCookie.scenario;
@@ -172,7 +172,7 @@ function createRefusers() {
 function drawScenarioSpace() {
     initFooter();
     window.setTimeout(function() {d3.select(".gameMenuBox").style("right", "-10px"); d3.select(".gameVaxLogoDiv").style("left", "-12px")},1)
-    d3.select("#newGameNav").on("click", function() {window.location.href = '/scenario'})
+    d3.select("#newGameNav").on("click", function() {window.location.href = 'scenario.html'})
 
 
     vaccinateMode     = true  ;
@@ -1109,7 +1109,7 @@ function recordScores() {
     console.log(Cookies.get('vaxCurrentScenarioScores'))
 
     modifyUnlocks();
-    window.location.href = '/scores'
+    window.location.href = 'scores.html'
 }
 
 function modifyUnlocks() {

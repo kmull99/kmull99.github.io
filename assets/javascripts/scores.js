@@ -548,7 +548,7 @@ function drawNavButtons() {
         .text("New Scenario")
         .style("cursor", "pointer")
         .style("font-size", "40px")
-        .on("click", function() {window.location.href = "/scenario"})
+        .on("click", function() {window.location.href = "scenario.html"})
         .on("mouseover", function() {
             d3.select(this).style("fill", "#2692F2")
         })
@@ -633,7 +633,7 @@ function retryScenario() {
     //$.cookie.json = true;
     var currentGameCookie = {scenario: scenarioTitle, difficulty: difficulty, speedMode:realTimeMode, refusers: refuserDifficulty[difficultyIndex], vax: vaxDifficulty[difficultyIndex], outbreaks: independentOutbreakDifficulty[difficultyIndex], transmissionRate: transmissionRate, recoveryRate: recoveryRate}
     Cookies.set('vaxCurrentGame', JSON.stringify(currentGameCookie), { expires: 365, path: '/' })
-    window.location.href = '/scenarioGame'
+    window.location.href = 'scenarioGame.html'
 
 }
 

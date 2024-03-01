@@ -2310,7 +2310,7 @@ function next() {
     hideGameQuarantine();
 
     if (difficultyString == "hard" || difficultyString == null) {
-        window.location.href = "/game"
+        window.location.href = "game.html"
 
     }
     else {

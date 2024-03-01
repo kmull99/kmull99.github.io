@@ -293,7 +293,7 @@ function homeToTutorial() {
         .style("right", "0px")
         .text("More About Vax...")
         .on("click", function() {
-            window.location.href = '/faq'
+            window.location.href = 'faq.html'
         })
 
     advanceTutorial()
@@ -1132,7 +1132,7 @@ function menuConfirm() {
                     .text("VAX!")
                     .style("cursor", "pointer")
                     .on("click", function() {
-                        window.location.href = '/'
+                        window.location.href = 'index.html'
                     })
 
                 d3.select(".vaxLogoDiv")
@@ -1206,7 +1206,7 @@ function initTutorial() {
         .text("VAX!")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = '/'
+            window.location.href = 'index.html'
         })
 
 
