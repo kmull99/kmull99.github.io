@@ -293,7 +293,7 @@ function homeToTutorial() {
         .style("right", "0px")
         .text("More About Vax...")
         .on("click", function() {
-            window.location.href = '/about'
+            window.location.href = '/faq'
         })
 
     advanceTutorial()
