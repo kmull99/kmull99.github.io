@@ -144,7 +144,8 @@ function initSocialShare() {
         .style("cursor", "pointer")
         .attr("opacity", 0)
         .on("click", function() {
-            window.location.href = facebookText;
+            alert( "This link is no longer functional" );
+            // window.location.href = facebookText;
         })
 
     d3.select(".socialShareMain").append("image")
@@ -158,7 +159,8 @@ function initSocialShare() {
         .attr("opacity", 0)
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = twitterText;
+            alert( "This link is no longer functional" );
+            // window.location.href = twitterText;
         })
 
     d3.select(".socialShareMain").append("image")
@@ -172,7 +174,8 @@ function initSocialShare() {
         .attr("opacity", 0)
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
+            alert( "This link is no longer functional" );
+            // window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
         })
 }
 
@@ -1911,7 +1914,8 @@ function addShareButtons(bestScore,diffset) {
         .style("cursor", "pointer")
         .attr("opacity", 0)
         .on("click", function() {
-            window.location.href = facebookText;
+            alert( "This link is no longer functional" );
+            // window.location.href = facebookText;
         })
 
     d3.select(".gameSVG").append("image")
@@ -1927,7 +1931,8 @@ function addShareButtons(bestScore,diffset) {
         .attr("opacity", 0)
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = twitterText;
+            alert( "This link is no longer functional" );
+            // window.location.href = twitterText;
         })
 
     d3.select(".gameSVG").append("image")
@@ -1943,7 +1948,8 @@ function addShareButtons(bestScore,diffset) {
         .style("width", "25px")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
+            alert( "This link is no longer functional" );
+            // window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
         })
 
     d3.select(".gameSVG").append("text")
@@ -2173,7 +2179,8 @@ function loadConclusionText() {
         .style("padding", "12px 7px 0px 7px")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = facebookText;
+            alert( "This link is no longer functional" );
+            // window.location.href = facebookText;
         })
 
     d3.select(".gameSVG").append("image")
@@ -2187,7 +2194,8 @@ function loadConclusionText() {
         .style("width", "25px")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = twitterText;
+            alert( "This link is no longer functional" );
+            // window.location.href = twitterText;
         })
 
     d3.select(".gameSVG").append("image")
@@ -2201,7 +2209,8 @@ function loadConclusionText() {
         .style("width", "25px")
         .style("cursor", "pointer")
         .on("click", function() {
-            window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
+            alert( "This link is no longer functional" );
+            // window.location.href = "https://plus.google.com/share?url=http://vax.herokuapp.com";
         })
 
     if (difficultyString == null) {
